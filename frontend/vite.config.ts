@@ -11,6 +11,9 @@ export default defineConfig({
         target: "ws://localhost:8000",
         ws: true,
       },
+      "/control": {
+        target: "http://localhost:8000",
+      },
     },
   },
 });
